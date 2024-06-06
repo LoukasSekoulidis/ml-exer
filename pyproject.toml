@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projects"
+version = "0.1.0"
+description = ""
+authors = ["Lukas Sekoulidis <lukas.sekoulidis@syna.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
